@@ -27,7 +27,7 @@ module.exports = async function handler(req, res) {
       return res.status(400).json({ status: 'error', message: 'Invalid payload', received: req.body });
     }
 
-    const pixel_id = '1069242212826477'; // Aapka Pixel ID
+    const pixel_id = '1761716371557691'; // Aapka Pixel ID
     const access_token = 'EAAZACeJZAH7esBS4ZAzv4CtdwVcNVhtAfdaZBPk1NFo62cLQl3n4MYeMrCWhA0NwKUDEfVrcQbvULdvUQgHQRT3ZAFcblHa4sK5YgdSszGQsSdxpkOG2nZCZBvZAthnc1zFF053LkwJXyZC6EzZAYPuEpqJJfojNbI1KVLHIIwmNkZAdhCVR5eiSUMG04zV8jh2u804AwZDZD'; // Aapka New Access Token
     const test_event_code = ''; // Test poora hone ke baad ise khali '' kar dena
 
